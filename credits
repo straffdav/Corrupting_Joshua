@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Proportionally Scalable Canvas</title>
+  <style>
+    body {
+      background-color: black;
+    }
+p{
+  color: white;
+}
+    
+    
+  </style>
+ <p>Thank you for playing through!<br>Credits:<br>Eszter Illés<br>David Straff<br>Consultant:Bálint Ferenczi</p>
+</head>
+<body>
+ 
+</body>
+</html>
