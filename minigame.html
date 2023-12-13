@@ -7,8 +7,7 @@
     body {
       background-color: black;
     }
-
-     p {
+    p {
       color: white;
       position: absolute;
     }
@@ -37,8 +36,9 @@
 <body>
   <p>The scene is loading. Be patient.</p>
   <div class="container">
-    <spline-viewer loading-anim-type="spinner-small-dark" url="https://prod.spline.design/ZtJ2cbGOTdujqjS2/scene.splinecode"></spline-viewer>
+    <spline-viewer class="spine-viewer" loading-anim-type="spinner-small-dark" url="https://prod.spline.design/ZtJ2cbGOTdujqjS2/scene.splinecode"></spline-viewer>
   </div>
+  
 
   <script>
     const container = document.querySelector('.container');
@@ -48,5 +48,6 @@
     const scale = Math.min(container.offsetWidth / 1920, container.offsetHeight / 1080);
     viewer.style.transform = `scale(${scale})`;
   </script>
+  <a href="index.html">Restart the game</a>
 </body>
 </html>
